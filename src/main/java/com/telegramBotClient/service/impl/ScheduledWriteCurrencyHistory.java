@@ -1,7 +1,7 @@
-package com.template.service.impl;
+package com.telegramBotClient.service.impl;
 
-import com.template.dao.CurrencyHistoryDao;
-import com.template.domain.model.Currency;
+import com.telegramBotClient.dao.CurrencyHistoryDao;
+import com.telegramBotClient.domain.model.Currency;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import okhttp3.OkHttpClient;

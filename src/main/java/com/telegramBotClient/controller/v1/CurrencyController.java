@@ -1,7 +1,7 @@
-package com.template.controller.v1;
+package com.telegramBotClient.controller.v1;
 
-import com.template.dao.CurrencyHistoryDao;
-import com.template.domain.model.CurrencyHistory;
+import com.telegramBotClient.dao.CurrencyHistoryDao;
+import com.telegramBotClient.domain.model.CurrencyHistory;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static com.template.controller.RestConstant.V1;
+import static com.telegramBotClient.controller.RestConstant.V1;
 
 @RestController
 @AllArgsConstructor

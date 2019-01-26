@@ -1,6 +1,6 @@
-package com.template.dao.jpa;
+package com.telegramBotClient.dao.jpa;
 
-import com.template.domain.model.Currency;
+import com.telegramBotClient.domain.model.Currency;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

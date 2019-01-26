@@ -1,4 +1,4 @@
-package com.template.configuration;
+package com.telegramBotClient.configuration;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
