@@ -1,11 +1,4 @@
 # template
-ENVIROMENT:
-* DB_HOST=localhost
-* DB_PORT=5432
-* DB_NAME=postgres
-* DB_USER=postgres
-* DB_PASS=postgres
-* DBMIGRATION_USER=postgres
-* DBMIGRATION_PASS=postgres
-* SERVER_PORT=8080
-* SERVER_HOST=localhost
+Телеграм бот кнвертер валют по отношению к тенге. Работает с сервером https://github.com/apan98/TelegramBotServerFreedom Этот сервер в БД хранит валюты по отношению к тенге, и обновляет их до актуальных каждые 10 минут. Этот бот дергает сервер по JSON API для получения актуальной валюты или истории изменении валют в виде JSON
+
+![](http://g.recordit.co/hnxH5oPDOc.gif)
